@@ -45,7 +45,7 @@ function generateWhatsAppLink($phone, $text) {
 
 function displayWhatsAppLink($phone, $text) {
     $url = generateWhatsAppLink($phone, $text);
-    echo "<a href='$url'>WhatsApp Me</a>";
+    echo "<center><a href='$url'>WhatsApp Me</a></center>";
 }
 
 function launchWhatsApp($phone, $text) {
