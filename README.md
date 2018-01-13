@@ -1,5 +1,7 @@
 ### WhatsApp Redirect Script
 
+![](https://i.imgur.com/4kAGyM8.gif)
+
 This project is very simple. The script offers 2 options:
 
 1. Display a link to user and let them manually click it to launch WhatsApp
