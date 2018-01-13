@@ -1,0 +1,7 @@
+# Reference:
+# https://gist.github.com/RaVbaker/2254618
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
