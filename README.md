@@ -5,6 +5,8 @@ This project is very simple. The script offers 2 options:
 1. Display a link to user and let them manually click it to launch WhatsApp
 2. Launch WhatsApp application straight away
 
+--- 
+
 #### Option 1 Flow
 
 1. User fill in the form at `form.html` file
@@ -23,6 +25,8 @@ Use Docker? Try it now:
 $ docker run -d --name wasap-my-php -p 80:80 zulhfreelancer/wasap_my_php:form_manual
 ```
 
+---
+
 #### Option 2 Flow
 
 1. User fill in the form at `form.html` file
@@ -39,6 +43,8 @@ Use Docker? Try it now:
 ```
 $ docker run -d --name wasap-my-php -p 80:80 zulhfreelancer/wasap_my_php:form_auto
 ```
+
+---
 
 #### Bypass the Form aka WhatsApp Shortener Link
 
@@ -61,6 +67,8 @@ Depending on which option you choose inside the `index.php` script, it will disp
 
 [Watch on YouTube](https://youtu.be/FIAIvXE0tFY)
 
+---
+
 #### Important Notes
 
 1. This projects assumes you are using Apache webserver
@@ -68,6 +76,8 @@ Depending on which option you choose inside the `index.php` script, it will disp
 3. Not sure if it's already enabled or not? Check [here](http://schoolsofweb.com/how-to-check-if-mod_rewrite-is-enabled-on-server-in-php/)
 4. If you are using shared hosting, please ask your web-hosting provider to enable `mod_rewrite` for your account
 5. You must place the `.htaccess` file provided inside this project into the same folder that contains all the files inside this project
+
+---
 
 #### Useful Resources
 
